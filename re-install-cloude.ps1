@@ -43,7 +43,7 @@ Set-Location $workDir
 # 4. Synchronize all project dependencies
 Write-Host ""
 Write-Host "[4/5] Installing dependencies and packages..." -ForegroundColor Green
-$env:SETUPTOOLS_SCM_PRETEND_VERSION = "0.1.0"
+$env:SETUPTOOLS_SCM_PRETEND_VERSION = "0.1.1"
 & uv sync
 
 # 5. Create Desktop and Start Menu Shortcuts
