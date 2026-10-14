@@ -23,6 +23,14 @@
   <em>Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic.</em>
 </p>
 
+> [!NOTE]
+> ### 🌟 Custom Windows Edition & Enhancements by [Nader Khayatei](https://github.com/nkhayatei)
+> This repository is a customized fork of [Free Claude Code](https://github.com/Alishahryar1/free-claude-code), optimized for Windows users with:
+> - **1-Click Auto-Installer & Bootstrapper (`re-install-cloude.bat` & `re-install-cloude.ps1`)**: Complete setup including Python 3.14 environment, dependencies, and desktop shortcuts.
+> - **Silent Background Launcher (`start-silent.vbs`)**: Run the FCC proxy server quietly in the background without persistent terminal windows.
+> - **Configuration Backup System**: Secure local persistence of configured providers (Gemini, NVIDIA NIM, Groq) across system reinstalls.
+> - **Secure Git Protection**: Automatic exclusion of sensitive `.env` credentials and personal configurations.
+
 ## What You Get
 
 - **61 ToS-friendly providers. 1.3B+ free tokens every month.** Use free, paid, subscription, and local models from one searchable UI without putting your account at risk. FCC follows provider terms and removes integrations if they stop being allowed.
